@@ -20,7 +20,7 @@ type Configs struct {
 	}
 
 	Log struct {
-		Level        int    `yaml:"level"`
+		Level        string `yaml:"level"`
 		FileSize     int    `yaml:"fileSize"`
 		FileSizeUnit string `yaml:"fileSizeUnit"`
 		JsonFile     bool   `yaml:"jsonFile"`
