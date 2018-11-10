@@ -1,0 +1,11 @@
+registry:
+    addr: "127.0.0.1:8500"
+srv:
+    srvName: demo-client
+    srvId: 0
+    addr:
+log:
+    level: 1
+    fileSize: 10
+    fileSizeUnit: M
+    jsonFile: false
